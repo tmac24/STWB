@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "STTabBarViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,14 +17,26 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    //1.创建主窗口
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    
+    //2.设置主窗口根控制器
+    self.window.rootViewController = [[STTabBarViewController alloc] init];
+    
+    //3.显示窗口
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+
+
+    
+    
 }
 
 

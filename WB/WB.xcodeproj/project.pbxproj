@@ -16,6 +16,12 @@
 		31B3E6811F5F885400B0E3DC /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B3E67C1F5F885400B0E3DC /* UIBarButtonItem+Extension.m */; };
 		31B3E6821F5F885400B0E3DC /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B3E67E1F5F885400B0E3DC /* UIImage+Extension.m */; };
 		31B3E6831F5F885400B0E3DC /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B3E6801F5F885400B0E3DC /* UIView+Extension.m */; };
+		31B3E6891F5F8DF400B0E3DC /* STTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B3E6881F5F8DF400B0E3DC /* STTabBarViewController.m */; };
+		31B3E68C1F5F8E9500B0E3DC /* STNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B3E68B1F5F8E9500B0E3DC /* STNavigationViewController.m */; };
+		31B3E68F1F5F945C00B0E3DC /* STDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B3E68E1F5F945C00B0E3DC /* STDiscoverViewController.m */; };
+		31B3E6921F5F947A00B0E3DC /* STHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B3E6911F5F947A00B0E3DC /* STHomeViewController.m */; };
+		31B3E6951F5F949400B0E3DC /* STMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B3E6941F5F949400B0E3DC /* STMessageViewController.m */; };
+		31B3E6981F5F94AE00B0E3DC /* STProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B3E6971F5F94AE00B0E3DC /* STProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,18 @@
 		31B3E67F1F5F885400B0E3DC /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		31B3E6801F5F885400B0E3DC /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		31B3E6861F5F8A1A00B0E3DC /* WeibPrefixH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeibPrefixH.pch; sourceTree = "<group>"; };
+		31B3E6871F5F8DF400B0E3DC /* STTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTabBarViewController.h; sourceTree = "<group>"; };
+		31B3E6881F5F8DF400B0E3DC /* STTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTabBarViewController.m; sourceTree = "<group>"; };
+		31B3E68A1F5F8E9500B0E3DC /* STNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STNavigationViewController.h; sourceTree = "<group>"; };
+		31B3E68B1F5F8E9500B0E3DC /* STNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STNavigationViewController.m; sourceTree = "<group>"; };
+		31B3E68D1F5F945C00B0E3DC /* STDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDiscoverViewController.h; sourceTree = "<group>"; };
+		31B3E68E1F5F945C00B0E3DC /* STDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDiscoverViewController.m; sourceTree = "<group>"; };
+		31B3E6901F5F947A00B0E3DC /* STHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHomeViewController.h; sourceTree = "<group>"; };
+		31B3E6911F5F947A00B0E3DC /* STHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHomeViewController.m; sourceTree = "<group>"; };
+		31B3E6931F5F949400B0E3DC /* STMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMessageViewController.h; sourceTree = "<group>"; };
+		31B3E6941F5F949400B0E3DC /* STMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMessageViewController.m; sourceTree = "<group>"; };
+		31B3E6961F5F94AE00B0E3DC /* STProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STProfileViewController.h; sourceTree = "<group>"; };
+		31B3E6971F5F94AE00B0E3DC /* STProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +159,8 @@
 		31B3E6631F5F876100B0E3DC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				31B3E68D1F5F945C00B0E3DC /* STDiscoverViewController.h */,
+				31B3E68E1F5F945C00B0E3DC /* STDiscoverViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -172,6 +192,8 @@
 		31B3E6671F5F876100B0E3DC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				31B3E6901F5F947A00B0E3DC /* STHomeViewController.h */,
+				31B3E6911F5F947A00B0E3DC /* STHomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -205,6 +227,10 @@
 		31B3E66B1F5F876100B0E3DC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				31B3E6871F5F8DF400B0E3DC /* STTabBarViewController.h */,
+				31B3E6881F5F8DF400B0E3DC /* STTabBarViewController.m */,
+				31B3E68A1F5F8E9500B0E3DC /* STNavigationViewController.h */,
+				31B3E68B1F5F8E9500B0E3DC /* STNavigationViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -245,6 +271,8 @@
 		31B3E6721F5F876100B0E3DC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				31B3E6931F5F949400B0E3DC /* STMessageViewController.h */,
+				31B3E6941F5F949400B0E3DC /* STMessageViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -276,6 +304,8 @@
 		31B3E6761F5F876100B0E3DC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				31B3E6961F5F94AE00B0E3DC /* STProfileViewController.h */,
+				31B3E6971F5F94AE00B0E3DC /* STProfileViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -351,6 +381,7 @@
 		31B3E6311F5F85DA00B0E3DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ST;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "孙涛";
 				TargetAttributes = {
@@ -413,9 +444,15 @@
 			files = (
 				31B3E6831F5F885400B0E3DC /* UIView+Extension.m in Sources */,
 				31B3E6821F5F885400B0E3DC /* UIImage+Extension.m in Sources */,
+				31B3E68F1F5F945C00B0E3DC /* STDiscoverViewController.m in Sources */,
 				31B3E6811F5F885400B0E3DC /* UIBarButtonItem+Extension.m in Sources */,
+				31B3E6921F5F947A00B0E3DC /* STHomeViewController.m in Sources */,
 				31B3E63E1F5F85DA00B0E3DC /* main.m in Sources */,
 				31B3E6791F5F876100B0E3DC /* AppDelegate.m in Sources */,
+				31B3E6891F5F8DF400B0E3DC /* STTabBarViewController.m in Sources */,
+				31B3E6981F5F94AE00B0E3DC /* STProfileViewController.m in Sources */,
+				31B3E68C1F5F8E9500B0E3DC /* STNavigationViewController.m in Sources */,
+				31B3E6951F5F949400B0E3DC /* STMessageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
